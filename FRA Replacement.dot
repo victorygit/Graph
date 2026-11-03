@@ -150,7 +150,7 @@ digraph G {
 "BEXP_AMEX_PCARD_CHLIST        PCFILES"->"BEXP_D02";
 "ZPENDING_REPORT               PCFILES"->"NFR_D028";
 "ZEMPLOYEE"->"NFR_D028";
-"NFR_D020"->"BEXP_C002";
+"NFR_D020"->"NFR_C002";
 "NFR_D019"->"NFR_D020";
 "ZXREPORT_ENTRY                PCFILES"->"NFR_D019";
 "NFR_D074"->"NFR_C005";
@@ -199,4 +199,53 @@ digraph G {
 "NFR_C052"->"NFR_M005";
 "NFR_C005"->"NFR_M005";
 "NFR_C305"->"NFR_M005";
+"NFR_C008"->"NFR_M008";
+"Mytime-MyTime Bulk Retro"->"NFR_BKRT_01                   PCFILES"
+"Mytime-MyTime Bulk Retro Control file"->"NFR_BKRT_02                   PCFILES"
+"Mytime-MyTime Accrual"->"NFR_MTACCR_01                 PCFILES"
+"Mytime-MyTime Accrual Control file"->"NFR_MTACCR_02                 PCFILES"
+"PassPort-Passport Control"->"NFR_PASSPORT_FILE_02          PCFILES"
+"PassPort-Passport Transactions"->"NFR_PASSPORT_01               PCFILES"
+"PassPort-Passport PO Line Committed Amount Control"->"NFR_PASSPORT_PO_LN_CTR        PCFILES"
+"PassPort-Passport PO Line Committed Amount"->"NFR_PASSPORT_PO               PCFILES"
+"PassPort-Passport Contract Committed"->"NFR_PASSPORT_PO               PCFILES"
+"Concur-Business Expense AMEX PCARD CC Holder List"->"BEXP_AMEX_PCARD_CHLIST        PCFILES"
+"Concur-Business Expense CC Transactions"->"BEXP_BUSEXP_CCTRANSACTION     PCFILES"
+"Concur-Business Expense Transactions"->"NFR_CONCUR_FILE               PCFILES"
+"Concur-Business Expense Entry File"->"ZXREPORT_ENTRY                PCFILES"
+"Concur-Business Expense Pending File"->"ZPENDING_REPORT               PCFILES"
+"OnCore-OnCore Control"->"NFR_ONCORE_02                 PCFILES"
+"OnCore-OnCore Transactions"->"NFR_ONCORE_01                 PCFILES"
+"Pcard Visa-Visa Accrual (EPSS) - Only month-end"->"NFR_VISA_02                   PCFILES"
+"Pcard Visa-Visa (EPSS) Weekly"->"NFR_VISA_01                   PCFILES"
+"Ariba-Ariba P2P Charge Payment control file"->"NFR_P2PJRNL_CTR               PCFILES"
+"Ariba-Ariba P2P Charge Payment file"->"NFR_P2PJRNL_FILE              PCFILES"
+"IRS Invest Rec-IRS - Optional"->"NFR_IRS_01                    PCFILES"
+"SAP-SAP Previous Period Transaction"->"NFR_GS_PP_FILE                PCFILES"
+"SAP-SAP Transaction"->"NFR_GS_FILE                   PCFILES"
+"SAP-SAP Account"->"NFR_GS_ACCOUNT                PCFILES"
+"SAP-SAP Visa file"->"NFR_VISA_GS                   PCFILES"
+"SAP-SAP Visa PP file"->"NFR_VISA_GS                   PCFILES"
+"SAP-Business Expense SAP file"->"NFR_CONCUR_GS_FILE            PCFILES"
+"SAP-Business Expense SAP file"->"NFR_CONCUR_GS_FILE            PCFILES"
+"SAP-Oncore Accrual Additional Information Prior Period"->"NFR_ONCORE_ACCRUALS           PCFILES"
+"SAP-Oncore Accrual Additional Information"->"NFR_ONCORE_ACCRUALS           PCFILES"
+"SAP-Opening Balance"->"NFR_NUACCT44_ADJUST_FRA       PCFILES"
+"SAP-Cheque Requisition (FIBSPR1 API DataSource)"->"ZZBI_CHEQ_REQ                 PCFILES"
+"SAP-New FRA Accruals (FIBSPR1 API DataSource)"->"ZFRA_ACCRUAL                  PCFILES"
+"DL-CSCT upload (Act, Bud, BP)"->"BUS_CSC_ALLOCAITON            PCFILES"
+"manual-BUS Nuclear Allocation Staging C01"->"ZBUS_D11_FILE                 PCFILES"
+"BPC-Budget - Yearly Data - Inbound Layer"->"NFR_YR_BUDGET_AMT_01          PCFILES"
+"AS9-AS9 - Data File Reconciliation"->"NFR_PASSPORT_PO_LTD           PCFILES"
+"BPC-Budget Hours - Inbound Layer"->"NFR_BUDGET_HRS                PCFILES"
+"EcoSys-Forecast"->"FRA_PRJ_FORECAST              PCFILES"
+"BPC-BUDGET Data - Inbound Layer"->"NFR_BUDGET_AMT_01             PCFILES"
+"manual-Manual Adjustment Cost Transactions"->"NFR_LBR_ADJ                   PCFILES"
+"BPC-In-Service Forecast (MAIS) upload from BPC"->"NFR_BUD_AMT_02                PCFILES"
+"BPC-Headcount - Yearly Budget"->"NFR_YR_BUDGET_HC_01           PCFILES"
+"BPC-Budget - Yearly FTE Data"->"NFR_YR_BUDGET_FTE_01          PCFILES"
+"BPC-Budget - Yearly Hours Data"->"NFR_YR_BUDGET_HOURS_01        PCFILES"
+"BPC-Budget FTE - Inbound Layer"->"NFR_BUDGET_FTE_01             PCFILES"
+"BPC-Headcount - Budget - Inbound Layer"->"NFR_BUDGET_HC_01              PCFILES"
+
 }
