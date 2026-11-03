@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "inputs": [
+        {
+            "id": "dotTarget",
+            "type": "promptString",
+            "description": "Target node whose upstream paths to highlight in FRA Replacement.dot",
+            "default": "NFR_M006"
+        }
+    ],
+    "tasks": [
+        {
+            "label": "Highlight DOT target paths",
+            "type": "shell",
+            "command": "powershell.exe",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-File",
+                "${workspaceFolder}\\Highlight-DotTarget.ps1",
+                "-DotFile",
+                "${workspaceFolder}\\FRA Replacement.dot",
+                "-Target",
+                "${input:dotTarget}"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

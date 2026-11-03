@@ -1,0 +1,5 @@
+digraph G {
+    rankdir=LR;
+    "Customer Table" -> "Staging Area" [label="Daily ETL"];
+    "Staging Area" -> "Data Warehouse" [label="Nightly Build"];
+}
