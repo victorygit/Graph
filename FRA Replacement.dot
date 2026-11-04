@@ -57,7 +57,6 @@ digraph G {
 "NFR_BUDGET_AMT_01             PCFILES"->"NFR_D068";
 "NFR_D026"->"NFR_D023";
 "NFR_MTACCR_01                 PCFILES"->"NFR_D062";
-"NFR_P2PJRNL_FILE              PCFILES"->"NFR_D120";
 "NFR_BKRT_01                   PCFILES"->"NFR_D060";
 "NFR_TEMP_01                   PCFILES"->"NFR_D053";
 "NFR_IRS_01                    PCFILES"->"NFR_D055";
@@ -77,18 +76,16 @@ digraph G {
 "NFR_C033"->"NFR_M003";
 "NFR_C168"->"NFR_M003";
 "NFR_D010"->"NFR_C003";
-"NFR_P2PJRNL_FILE"->"NFR_D120";
-"NFR_CONCUR_FILE"->"NFR_D018";
+"NFR_P2PJRNL_FILE              PCFILES"->"NFR_D120";
 "NFR_ONCORE_01"->"NFR_D057";
 "NFR_IRS_01"->"NFR_D055";
 "NFR_PASSPORT_01"->"NFR_D052";
 "NFR_PATH_01"->"NFR_D051";
 "NFR_D026"->"NFR_D026";
 "NFR_MTACCR_01"->"NFR_D062";
-"NFR_BKRT_01"->"NFR_D060";
-"NFR_TEMP_01"->"NFR_D053";
-"NFR_GS_PP_FILE"->"NFR_D058";
-"NFR_GS_FILE"->"NFR_D056";
+"NFR_BKRT_01                   PCFILES"->"NFR_D060";
+//"NFR_GS_PP_FILE                PCFILES"->"NFR_D058";
+//"NFR_GS_FILE                   PCFILES"->"NFR_D056";
 "NFR_D078"->"NFR_C033";
 "NFR_NUACCT44_ADJUST_FRA"->"NFR_D77A";
 "NFR_D078"->"NFR_D77R";
@@ -101,7 +98,7 @@ digraph G {
 "NFR_D206"->"NFR_C008";
 "NFR_D204"->"NFR_D206";
 "NFR_D202"->"NFR_D204";
-"NFR_VISA_GS"->"NFR_D202";
+"NFR_VISA_GS                   PCFILES"->"NFR_D202";
 "NFR_D012"->"NFR_D23H";
 "OFR_O86"->"OFR_O99";
 "NFR_YR_BUDGET_FTE_01          PCFILES"->"NFR_D114";
@@ -141,7 +138,7 @@ digraph G {
 "POLNNO"->"POLNNO";
 "BEXP_C01"->"BEXP_M01";
 "BEXP_D01"->"BEXP_C01";
-"BEXP_BUSEXP_CCTRANSACTION"->"BEXP_D01";
+"BEXP_BUSEXP_CCTRANSACTION     PCFILES"->"BEXP_D01";
 "BEXP_C03"->"BEXP_M03";
 "BEXP_C02"->"BEXP_M02";
 "NFR_C002"->"BEXP_M05";
@@ -175,11 +172,10 @@ digraph G {
 "BUS_C117"->"NFR_D117";
 "NFR_YR_BUDGET_HC_01"->"NFR_D115";
 "NFR_D076"->"NFR_D054";
-"NFR_BUDGET_HC_01"->"NFR_D076";
+"NFR_BUDGET_HC_01              PCFILES"->"NFR_D076";
 "NFR_YR_BUDGET_FTE_01"->"NFR_D114";
 "NFR_D072"->"NFR_D073";
-"NFR_BUDGET_FTE_01"->"NFR_D072";
-"NFR_YR_BUDGET_AMT_01"->"NFR_D113";
+"NFR_BUDGET_FTE_01             PCFILES"->"NFR_D072";
 "NFR_BUDGET_AMT_01"->"NFR_D068";
 "NFR_D117"->"BUS_C117";
 "NFR_D118"->"BUS_C117";
@@ -201,12 +197,8 @@ digraph G {
 "NFR_C305"->"NFR_M005";
 "NFR_C008"->"NFR_M008";
 "Mytime-MyTime Bulk Retro"->"NFR_BKRT_01                   PCFILES"
-"Mytime-MyTime Bulk Retro Control file"->"NFR_BKRT_02                   PCFILES"
 "Mytime-MyTime Accrual"->"NFR_MTACCR_01                 PCFILES"
-"Mytime-MyTime Accrual Control file"->"NFR_MTACCR_02                 PCFILES"
-"PassPort-Passport Control"->"NFR_PASSPORT_FILE_02          PCFILES"
 "PassPort-Passport Transactions"->"NFR_PASSPORT_01               PCFILES"
-"PassPort-Passport PO Line Committed Amount Control"->"NFR_PASSPORT_PO_LN_CTR        PCFILES"
 "PassPort-Passport PO Line Committed Amount"->"NFR_PASSPORT_PO               PCFILES"
 "PassPort-Passport Contract Committed"->"NFR_PASSPORT_PO               PCFILES"
 "Concur-Business Expense AMEX PCARD CC Holder List"->"BEXP_AMEX_PCARD_CHLIST        PCFILES"
@@ -214,38 +206,36 @@ digraph G {
 "Concur-Business Expense Transactions"->"NFR_CONCUR_FILE               PCFILES"
 "Concur-Business Expense Entry File"->"ZXREPORT_ENTRY                PCFILES"
 "Concur-Business Expense Pending File"->"ZPENDING_REPORT               PCFILES"
-"OnCore-OnCore Control"->"NFR_ONCORE_02                 PCFILES"
 "OnCore-OnCore Transactions"->"NFR_ONCORE_01                 PCFILES"
 "Pcard Visa-Visa Accrual (EPSS) - Only month-end"->"NFR_VISA_02                   PCFILES"
 "Pcard Visa-Visa (EPSS) Weekly"->"NFR_VISA_01                   PCFILES"
-"Ariba-Ariba P2P Charge Payment control file"->"NFR_P2PJRNL_CTR               PCFILES"
 "Ariba-Ariba P2P Charge Payment file"->"NFR_P2PJRNL_FILE              PCFILES"
 "IRS Invest Rec-IRS - Optional"->"NFR_IRS_01                    PCFILES"
 "SAP-SAP Previous Period Transaction"->"NFR_GS_PP_FILE                PCFILES"
 "SAP-SAP Transaction"->"NFR_GS_FILE                   PCFILES"
-"SAP-SAP Account"->"NFR_GS_ACCOUNT                PCFILES"
 "SAP-SAP Visa file"->"NFR_VISA_GS                   PCFILES"
 "SAP-SAP Visa PP file"->"NFR_VISA_GS                   PCFILES"
-"SAP-Business Expense SAP file"->"NFR_CONCUR_GS_FILE            PCFILES"
 "SAP-Business Expense SAP file"->"NFR_CONCUR_GS_FILE            PCFILES"
 "SAP-Oncore Accrual Additional Information Prior Period"->"NFR_ONCORE_ACCRUALS           PCFILES"
 "SAP-Oncore Accrual Additional Information"->"NFR_ONCORE_ACCRUALS           PCFILES"
 "SAP-Opening Balance"->"NFR_NUACCT44_ADJUST_FRA       PCFILES"
-"SAP-Cheque Requisition (FIBSPR1 API DataSource)"->"ZZBI_CHEQ_REQ                 PCFILES"
+// Cheque Requisition
+//"SAP-Cheque Requisition (FIBSPR1 API DataSource)"->"ZZBI_CHEQ_REQ                 PCFILES"
 "SAP-New FRA Accruals (FIBSPR1 API DataSource)"->"ZFRA_ACCRUAL                  PCFILES"
-"DL-CSCT upload (Act, Bud, BP)"->"BUS_CSC_ALLOCAITON            PCFILES"
-"manual-BUS Nuclear Allocation Staging C01"->"ZBUS_D11_FILE                 PCFILES"
+//"DL-CSCT upload (Act, Bud, BP)"->"BUS_CSC_ALLOCAITON            PCFILES"
 "BPC-Budget - Yearly Data - Inbound Layer"->"NFR_YR_BUDGET_AMT_01          PCFILES"
 "AS9-AS9 - Data File Reconciliation"->"NFR_PASSPORT_PO_LTD           PCFILES"
 "BPC-Budget Hours - Inbound Layer"->"NFR_BUDGET_HRS                PCFILES"
-"EcoSys-Forecast"->"FRA_PRJ_FORECAST              PCFILES"
+// Project master data
+//"EcoSys-Forecast"->"FRA_PRJ_FORECAST              PCFILES"
 "BPC-BUDGET Data - Inbound Layer"->"NFR_BUDGET_AMT_01             PCFILES"
-"manual-Manual Adjustment Cost Transactions"->"NFR_LBR_ADJ                   PCFILES"
+//"manual-Manual Adjustment Cost Transactions"->"NFR_LBR_ADJ                   PCFILES"
 "BPC-In-Service Forecast (MAIS) upload from BPC"->"NFR_BUD_AMT_02                PCFILES"
 "BPC-Headcount - Yearly Budget"->"NFR_YR_BUDGET_HC_01           PCFILES"
 "BPC-Budget - Yearly FTE Data"->"NFR_YR_BUDGET_FTE_01          PCFILES"
 "BPC-Budget - Yearly Hours Data"->"NFR_YR_BUDGET_HOURS_01        PCFILES"
 "BPC-Budget FTE - Inbound Layer"->"NFR_BUDGET_FTE_01             PCFILES"
 "BPC-Headcount - Budget - Inbound Layer"->"NFR_BUDGET_HC_01              PCFILES"
+
 
 }

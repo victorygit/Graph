@@ -1,0 +1,241 @@
+digraph G {
+    "NFR_M006" [style=filled, fillcolor="yellow", color="red", penwidth=2];
+    rankdir=LR;
+"NFR_C101"->"NFR_M001";
+"NFR_C001"->"NFR_M001";
+"NFR_C011"->"NFR_M001";
+"NFR_C013"->"NFR_M001";
+"NFR_C013A"->"NFR_M001";
+"NFR_C012"->"NFR_M001";
+"NFR_D010"->"NFR_C001";
+"NFR_D011"->"NFR_C101";
+"NFR_D113"->"NFR_C011";
+"NFR_D069"->"NFR_C011";
+"NFR_D118"->"NFR_C011";
+"NFR_DF01"->"NFR_C011";
+"NFR_C011"->"NFR_C012";
+"NFR_D078"->"NFR_C013";
+"NFR_D026"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D121"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D021"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D066"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D022"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D121"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D025"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D023"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D022"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D77A"->"NFR_D078" [color="red", penwidth=2.5];
+"NFR_D050"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D025"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D027"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D027"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D023"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D011"->"NFR_D078" [color="red", penwidth=2.5];
+"NFR_D068"->"NFR_D069" [color="red", penwidth=2.5];
+"NFR_YR_BUDGET_AMT_01          PCFILES"->"NFR_D113" [color="red", penwidth=2.5];
+"NFR_D050"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D021"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D77R"->"NFR_D078" [color="red", penwidth=2.5];
+"NFR_D066"->"NFR_D010" [color="red", penwidth=2.5];
+"OFR_IP1"->"NFR_DF01";
+"NFR_D116"->"NFR_D118";
+"NFR_D026"->"NFR_D010" [color="red", penwidth=2.5];
+"ZDSODELT"->"OFR_IP1";
+"NFR_D060"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_D055"->"NFR_D025" [color="red", penwidth=2.5];
+"NFR_D051"->"NFR_D021" [color="red", penwidth=2.5];
+"NFR_D052"->"NFR_D022" [color="red", penwidth=2.5];
+"NFR_D058"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_D062"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_D120"->"NFR_D121" [color="red", penwidth=2.5];
+"NFR_D057"->"NFR_D027" [color="red", penwidth=2.5];
+"NFR_D053"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_D056"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_D065"->"NFR_D066" [color="red", penwidth=2.5];
+"NFR_D018"->"NFR_D050" [color="red", penwidth=2.5];
+"NFR_NUACCT44_ADJUST_FRA       PCFILES"->"NFR_D77A" [color="red", penwidth=2.5];
+"NFR_BUDGET_HRS                PCFILES"->"NFR_D116";
+"NFR_BUDGET_AMT_01             PCFILES"->"NFR_D068" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_MTACCR_01                 PCFILES"->"NFR_D062" [color="red", penwidth=2.5];
+"NFR_BKRT_01                   PCFILES"->"NFR_D060" [color="red", penwidth=2.5];
+"NFR_TEMP_01                   PCFILES"->"NFR_D053" [color="red", penwidth=2.5];
+"NFR_IRS_01                    PCFILES"->"NFR_D055" [color="red", penwidth=2.5];
+"NFR_ONCORE_01                 PCFILES"->"NFR_D057" [color="red", penwidth=2.5];
+"NFR_GS_FILE                   PCFILES"->"NFR_D056" [color="red", penwidth=2.5];
+"NFR_PATH_01                   PCFILES"->"NFR_D051" [color="red", penwidth=2.5];
+"NFR_GS_PP_FILE                PCFILES"->"NFR_D058" [color="red", penwidth=2.5];
+"NFR_CONCUR_FILE               PCFILES"->"NFR_D018" [color="red", penwidth=2.5];
+"NFR_PASSPORT_01               PCFILES"->"NFR_D052" [color="red", penwidth=2.5];
+"NFR_JNLS                      FCPCLNT100"->"NFR_D065" [color="red", penwidth=2.5];
+"NFR_D012"->"NFR_M010";
+"NFR_D010"->"NFR_M010";
+"NFR_D078"->"NFR_M010";
+"NFR_D011"->"NFR_M010";
+"NFR_D011"->"NFR_D012";
+"NFR_C003"->"NFR_M003";
+"NFR_C033"->"NFR_M003";
+"NFR_C168"->"NFR_M003";
+"NFR_D010"->"NFR_C003";
+"NFR_P2PJRNL_FILE"->"NFR_D120" [color="red", penwidth=2.5];
+"NFR_ONCORE_01"->"NFR_D057" [color="red", penwidth=2.5];
+"NFR_IRS_01"->"NFR_D055" [color="red", penwidth=2.5];
+"NFR_PASSPORT_01"->"NFR_D052" [color="red", penwidth=2.5];
+"NFR_PATH_01"->"NFR_D051" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_MTACCR_01"->"NFR_D062" [color="red", penwidth=2.5];
+"NFR_BKRT_01                   PCFILES"->"NFR_D060" [color="red", penwidth=2.5];
+"NFR_GS_PP_FILE"->"NFR_D058" [color="red", penwidth=2.5];
+"NFR_GS_FILE"->"NFR_D056" [color="red", penwidth=2.5];
+"NFR_D078"->"NFR_C033";
+"NFR_NUACCT44_ADJUST_FRA"->"NFR_D77A" [color="red", penwidth=2.5];
+"NFR_D078"->"NFR_D77R" [color="red", penwidth=2.5];
+"NFR_DF01"->"NFR_C168";
+"NFR_D167"->"NFR_C168";
+"NFR_C003"->"NFR_D167";
+"NFR_D168"->"NFR_D167";
+"NFR_D011"->"NFR_C003";
+"NFR_D026"->"NFR_C008";
+"NFR_D206"->"NFR_C008";
+"NFR_D204"->"NFR_D206";
+"NFR_D202"->"NFR_D204";
+"NFR_VISA_GS                   PCFILES"->"NFR_D202";
+"NFR_D012"->"NFR_D23H";
+"OFR_O86"->"OFR_O99";
+"NFR_YR_BUDGET_FTE_01          PCFILES"->"NFR_D114";
+"0HR_PY_PP_1                   FIBSPR1"->"OFR_O01";
+"NFR_YR_BUDGET_HC_01           PCFILES"->"NFR_D115";
+"0CO_OM_CCA_9                  FIBSPR1"->"OFR_O26";
+"POLNNO"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C063"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C007"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C062"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C106"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C23"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C069"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C061"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_C006"->"NFR_M006" [color="red", penwidth=2.5];
+"NFR_D069"->"NFR_C061" [color="red", penwidth=2.5];
+"NFR_C061"->"NFR_C062" [color="red", penwidth=2.5];
+"NFR_D113"->"NFR_C061" [color="red", penwidth=2.5];
+"NFR_D078"->"NFR_C063" [color="red", penwidth=2.5];
+"NFR_D010"->"NFR_C007" [color="red", penwidth=2.5];
+"NFR_GS_PP_FILE                PCFILES"->"POLNNO" [color="red", penwidth=2.5];
+"NFR_PASSPORT_01               PCFILES"->"POLNNO" [color="red", penwidth=2.5];
+"NFR_D010"->"NFR_C006" [color="red", penwidth=2.5];
+"NFR_PASSPORT_PO               PCFILES"->"POLNNO" [color="red", penwidth=2.5];
+"NFR_ONCORE_ACCRUALS           PCFILES"->"POLNNO" [color="red", penwidth=2.5];
+"NFR_GS_FILE                   PCFILES"->"POLNNO" [color="red", penwidth=2.5];
+"NFR_P2PJRNL_FILE              PCFILES"->"POLNNO" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_C007" [color="red", penwidth=2.5];
+"NFR_D011"->"NFR_C106" [color="red", penwidth=2.5];
+"NFR_D049"->"NFR_C069" [color="red", penwidth=2.5];
+"OFR_C23"->"NFR_C23" [color="red", penwidth=2.5];
+"OFR_O64"->"OFR_C23" [color="red", penwidth=2.5];
+"NFR_D089"->"NFR_D049" [color="red", penwidth=2.5];
+"0FI_GL_4                      FIBSPR1"->"OFR_O64" [color="red", penwidth=2.5];
+"NFR_PASSPORT_PO               PCFILES"->"NFR_D089" [color="red", penwidth=2.5];
+"NFR_D049"->"NFR_D049" [color="red", penwidth=2.5];
+"POLNNO"->"POLNNO" [color="red", penwidth=2.5];
+"BEXP_C01"->"BEXP_M01";
+"BEXP_D01"->"BEXP_C01";
+"BEXP_BUSEXP_CCTRANSACTION"->"BEXP_D01";
+"BEXP_C03"->"BEXP_M03";
+"BEXP_C02"->"BEXP_M02";
+"NFR_C002"->"BEXP_M05";
+"NFR_D028"->"BEXP_C03";
+"BEXP_D02"->"BEXP_C02";
+"BEXP_AMEX_PCARD_CHLIST        PCFILES"->"BEXP_D02";
+"ZPENDING_REPORT               PCFILES"->"NFR_D028";
+"ZEMPLOYEE"->"NFR_D028";
+"NFR_D020"->"NFR_C002";
+"NFR_D019"->"NFR_D020";
+"ZXREPORT_ENTRY                PCFILES"->"NFR_D019";
+"NFR_D074"->"NFR_C005";
+"NFR_D023"->"NFR_C005";
+"NFR_D074"->"NFR_C305";
+"NFR_D023"->"NFR_C305";
+"NFR_DF01"->"NFR_C051";
+"NFR_D118"->"NFR_C051";
+"NFR_D117"->"NFR_C051";
+"NFR_D115"->"NFR_C051";
+"NFR_D054"->"NFR_C051";
+"NFR_D114"->"NFR_C051";
+"NFR_D073"->"NFR_C051";
+"NFR_D113"->"NFR_C051";
+"NFR_D069"->"NFR_C051";
+"NFR_C051"->"NFR_C052";
+"NFR_D075 "->"NFR_D074";
+"ZEMPLOYEE"->"NFR_D075 ";
+"NFR_ONCORE_01"->"NFR_D075 ";
+"BUS_C217"->"NFR_D118";
+"BUS_C117"->"BUS_C217";
+"BUS_C117"->"NFR_D117";
+"NFR_YR_BUDGET_HC_01"->"NFR_D115";
+"NFR_D076"->"NFR_D054";
+"NFR_BUDGET_HC_01              PCFILES"->"NFR_D076";
+"NFR_YR_BUDGET_FTE_01"->"NFR_D114";
+"NFR_D072"->"NFR_D073";
+"NFR_BUDGET_FTE_01             PCFILES"->"NFR_D072";
+"NFR_YR_BUDGET_AMT_01"->"NFR_D113" [color="red", penwidth=2.5];
+"NFR_BUDGET_AMT_01"->"NFR_D068" [color="red", penwidth=2.5];
+"NFR_D117"->"BUS_C117";
+"NFR_D118"->"BUS_C117";
+"NFR_BUDGET_HRS"->"NFR_D116";
+"NFR_D199"->"NFR_CPL1";
+"NFR_D011"->"NFR_CSL2";
+"NFR_D010"->"NFR_CSL2";
+"NFR_D023"->"NFR_CSL2";
+"OFR_O03"->"NFR_CPL1";
+"OFR_O86"->"NFR_D199";
+"OFR_O26"->"OFR_O86";
+"RSDS 0CO_OM_CCA_9 FIBSPR1"->"OFR_O26";
+"OFR_O01"->"OFR_O03";
+"RSDS 0HR_PY_PP_1 FIBSPR1"->"OFR_O01";
+"RSDS 0HR_PY_PP_1 PU9ODPC100"->"OFR_O01";
+"NFR_C051"->"NFR_M005";
+"NFR_C052"->"NFR_M005";
+"NFR_C005"->"NFR_M005";
+"NFR_C305"->"NFR_M005";
+"NFR_C008"->"NFR_M008";
+"Mytime-MyTime Bulk Retro"->"NFR_BKRT_01                   PCFILES" [color="red", penwidth=2.5]
+"Mytime-MyTime Accrual"->"NFR_MTACCR_01                 PCFILES" [color="red", penwidth=2.5]
+"PassPort-Passport Transactions"->"NFR_PASSPORT_01               PCFILES" [color="red", penwidth=2.5]
+"PassPort-Passport PO Line Committed Amount"->"NFR_PASSPORT_PO               PCFILES" [color="red", penwidth=2.5]
+"PassPort-Passport Contract Committed"->"NFR_PASSPORT_PO               PCFILES" [color="red", penwidth=2.5]
+"Concur-Business Expense AMEX PCARD CC Holder List"->"BEXP_AMEX_PCARD_CHLIST        PCFILES"
+"Concur-Business Expense CC Transactions"->"BEXP_BUSEXP_CCTRANSACTION     PCFILES"
+"Concur-Business Expense Transactions"->"NFR_CONCUR_FILE               PCFILES" [color="red", penwidth=2.5]
+"Concur-Business Expense Entry File"->"ZXREPORT_ENTRY                PCFILES"
+"Concur-Business Expense Pending File"->"ZPENDING_REPORT               PCFILES"
+"OnCore-OnCore Transactions"->"NFR_ONCORE_01                 PCFILES" [color="red", penwidth=2.5]
+"Pcard Visa-Visa Accrual (EPSS) - Only month-end"->"NFR_VISA_02                   PCFILES"
+"Pcard Visa-Visa (EPSS) Weekly"->"NFR_VISA_01                   PCFILES"
+"Ariba-Ariba P2P Charge Payment file"->"NFR_P2PJRNL_FILE              PCFILES" [color="red", penwidth=2.5]
+"IRS Invest Rec-IRS - Optional"->"NFR_IRS_01                    PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Previous Period Transaction"->"NFR_GS_PP_FILE                PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Transaction"->"NFR_GS_FILE                   PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Visa file"->"NFR_VISA_GS                   PCFILES"
+"SAP-SAP Visa PP file"->"NFR_VISA_GS                   PCFILES"
+"SAP-Business Expense SAP file"->"NFR_CONCUR_GS_FILE            PCFILES"
+"SAP-Oncore Accrual Additional Information Prior Period"->"NFR_ONCORE_ACCRUALS           PCFILES" [color="red", penwidth=2.5]
+"SAP-Oncore Accrual Additional Information"->"NFR_ONCORE_ACCRUALS           PCFILES" [color="red", penwidth=2.5]
+"SAP-Opening Balance"->"NFR_NUACCT44_ADJUST_FRA       PCFILES" [color="red", penwidth=2.5]
+"SAP-Cheque Requisition (FIBSPR1 API DataSource)"->"ZZBI_CHEQ_REQ                 PCFILES"
+"SAP-New FRA Accruals (FIBSPR1 API DataSource)"->"ZFRA_ACCRUAL                  PCFILES"
+"DL-CSCT upload (Act, Bud, BP)"->"BUS_CSC_ALLOCAITON            PCFILES"
+"BPC-Budget - Yearly Data - Inbound Layer"->"NFR_YR_BUDGET_AMT_01          PCFILES" [color="red", penwidth=2.5]
+"AS9-AS9 - Data File Reconciliation"->"NFR_PASSPORT_PO_LTD           PCFILES"
+"BPC-Budget Hours - Inbound Layer"->"NFR_BUDGET_HRS                PCFILES"
+"EcoSys-Forecast"->"FRA_PRJ_FORECAST              PCFILES"
+"BPC-BUDGET Data - Inbound Layer"->"NFR_BUDGET_AMT_01             PCFILES" [color="red", penwidth=2.5]
+"manual-Manual Adjustment Cost Transactions"->"NFR_LBR_ADJ                   PCFILES"
+"BPC-In-Service Forecast (MAIS) upload from BPC"->"NFR_BUD_AMT_02                PCFILES"
+"BPC-Headcount - Yearly Budget"->"NFR_YR_BUDGET_HC_01           PCFILES"
+"BPC-Budget - Yearly FTE Data"->"NFR_YR_BUDGET_FTE_01          PCFILES"
+"BPC-Budget - Yearly Hours Data"->"NFR_YR_BUDGET_HOURS_01        PCFILES"
+"BPC-Budget FTE - Inbound Layer"->"NFR_BUDGET_FTE_01             PCFILES"
+"BPC-Headcount - Budget - Inbound Layer"->"NFR_BUDGET_HC_01              PCFILES"
+
+
+}
