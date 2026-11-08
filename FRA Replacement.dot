@@ -236,6 +236,17 @@ digraph G {
 "BPC-Budget - Yearly Hours Data"->"NFR_YR_BUDGET_HOURS_01        PCFILES"
 "BPC-Budget FTE - Inbound Layer"->"NFR_BUDGET_FTE_01             PCFILES"
 "BPC-Headcount - Budget - Inbound Layer"->"NFR_BUDGET_HC_01              PCFILES"
-
+// missing ones
+"NFR_YR_BUDGET_HOURS_01        PCFILES" -> "NFR_D144" [color="blue", penwidth=2.5]
+"NFR_YR_BUDGET_HOURS_01        PCFILES" -> "NFR_D117" [color="blue", penwidth=2.5]
+"NFR_BUD_AMT_02                PCFILES" -> "NFR_D168" [color="blue", penwidth=2.5] 
+//"NFR_PASSPORT_PO_LTD           PCFILES" -> "PO master data"
+"NFR_PASSPORT_PO_LTD           PCFILES" -> "NFR_D088" [color="blue", penwidth=2.5] 
+"ZFRA_ACCRUAL                  PCFILES" ->"NFR_D085"  [color="blue", penwidth=2.5]  
+"NFR_D085" -> "NFR_D086" [color="blue", penwidth=2.5]   
+//concur SAP Files
+"NFR_CONCUR_GS_FILE            PCFILES" -> "NFR_D211" [color="blue", penwidth=2.5] 
+"NFR_VISA_01                   PCFILES" -> "NFR_D201" [color="blue", penwidth=2.5]
+"NFR_VISA_02                   PCFILES" ->  "NFR_D201" [color="blue", penwidth=2.5]
 
 }
