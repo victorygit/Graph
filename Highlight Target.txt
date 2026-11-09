@@ -1,1 +1,5 @@
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Highlight-DotTarget.ps1" -DotFile ".\FRA Replacement.dot" -Target "NFR_M006"
+
+
+Select the dot file and ask:
+keep rankdir and remove all the connection without color = "Red"
