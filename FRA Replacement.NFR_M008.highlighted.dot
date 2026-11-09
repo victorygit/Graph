@@ -1,0 +1,24 @@
+digraph G {
+    "NFR_M008" [style=filled, fillcolor="yellow", color="red", penwidth=2];
+    rankdir=LR;
+"NFR_D058"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_D056"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_GS_FILE                   PCFILES"->"NFR_D056" [color="red", penwidth=2.5];
+"NFR_GS_PP_FILE                PCFILES"->"NFR_D058" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_C008" [color="red", penwidth=2.5];
+"NFR_D206"->"NFR_C008" [color="red", penwidth=2.5];
+"NFR_D204"->"NFR_D206" [color="red", penwidth=2.5];
+"NFR_D202"->"NFR_D204" [color="red", penwidth=2.5];
+"NFR_VISA_GS                   PCFILES"->"NFR_D202" [color="red", penwidth=2.5];
+"NFR_C008"->"NFR_M008" [color="red", penwidth=2.5];
+"SAP-SAP Previous Period Transaction"->"NFR_GS_PP_FILE                PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Transaction"->"NFR_GS_FILE                   PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Visa file"->"NFR_VISA_GS                   PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Visa PP file"->"NFR_VISA_GS                   PCFILES" [color="red", penwidth=2.5]
+// Cheque Requisition
+// Project master data
+// missing ones
+//concur SAP Files
+
+}

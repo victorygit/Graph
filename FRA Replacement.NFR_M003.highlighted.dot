@@ -1,0 +1,89 @@
+digraph G {
+    "NFR_M003" [style=filled, fillcolor="yellow", color="red", penwidth=2];
+    rankdir=LR;
+"NFR_D026"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D121"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D021"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D066"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D022"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D121"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D025"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D023"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D022"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D77A"->"NFR_D078" [color="red", penwidth=2.5];
+"NFR_D050"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D025"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D027"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D027"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D023"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D011"->"NFR_D078" [color="red", penwidth=2.5];
+"NFR_D050"->"NFR_D010" [color="red", penwidth=2.5];
+"NFR_D021"->"NFR_D011" [color="red", penwidth=2.5];
+"NFR_D77R"->"NFR_D078" [color="red", penwidth=2.5];
+"NFR_D066"->"NFR_D010" [color="red", penwidth=2.5];
+"OFR_IP1"->"NFR_DF01" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_D010" [color="red", penwidth=2.5];
+"ZDSODELT"->"OFR_IP1" [color="red", penwidth=2.5];
+"NFR_D060"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_D055"->"NFR_D025" [color="red", penwidth=2.5];
+"NFR_D051"->"NFR_D021" [color="red", penwidth=2.5];
+"NFR_D052"->"NFR_D022" [color="red", penwidth=2.5];
+"NFR_D058"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_D062"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_D120"->"NFR_D121" [color="red", penwidth=2.5];
+"NFR_D057"->"NFR_D027" [color="red", penwidth=2.5];
+"NFR_D053"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_D056"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_D065"->"NFR_D066" [color="red", penwidth=2.5];
+"NFR_D018"->"NFR_D050" [color="red", penwidth=2.5];
+"NFR_NUACCT44_ADJUST_FRA       PCFILES"->"NFR_D77A" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_D023" [color="red", penwidth=2.5];
+"NFR_MTACCR_01                 PCFILES"->"NFR_D062" [color="red", penwidth=2.5];
+"NFR_BKRT_01                   PCFILES"->"NFR_D060" [color="red", penwidth=2.5];
+"NFR_TEMP_01                   PCFILES"->"NFR_D053" [color="red", penwidth=2.5];
+"NFR_IRS_01                    PCFILES"->"NFR_D055" [color="red", penwidth=2.5];
+"NFR_ONCORE_01                 PCFILES"->"NFR_D057" [color="red", penwidth=2.5];
+"NFR_GS_FILE                   PCFILES"->"NFR_D056" [color="red", penwidth=2.5];
+"NFR_PATH_01                   PCFILES"->"NFR_D051" [color="red", penwidth=2.5];
+"NFR_GS_PP_FILE                PCFILES"->"NFR_D058" [color="red", penwidth=2.5];
+"NFR_CONCUR_FILE               PCFILES"->"NFR_D018" [color="red", penwidth=2.5];
+"NFR_PASSPORT_01               PCFILES"->"NFR_D052" [color="red", penwidth=2.5];
+"NFR_JNLS                      FCPCLNT100"->"NFR_D065" [color="red", penwidth=2.5];
+"NFR_C003"->"NFR_M003" [color="red", penwidth=2.5];
+"NFR_C033"->"NFR_M003" [color="red", penwidth=2.5];
+"NFR_C168"->"NFR_M003" [color="red", penwidth=2.5];
+"NFR_D010"->"NFR_C003" [color="red", penwidth=2.5];
+"NFR_P2PJRNL_FILE              PCFILES"->"NFR_D120" [color="red", penwidth=2.5];
+"NFR_ONCORE_01"->"NFR_D057" [color="red", penwidth=2.5];
+"NFR_IRS_01"->"NFR_D055" [color="red", penwidth=2.5];
+"NFR_PASSPORT_01"->"NFR_D052" [color="red", penwidth=2.5];
+"NFR_PATH_01"->"NFR_D051" [color="red", penwidth=2.5];
+"NFR_D026"->"NFR_D026" [color="red", penwidth=2.5];
+"NFR_MTACCR_01"->"NFR_D062" [color="red", penwidth=2.5];
+"NFR_BKRT_01                   PCFILES"->"NFR_D060" [color="red", penwidth=2.5];
+"NFR_D078"->"NFR_C033" [color="red", penwidth=2.5];
+"NFR_NUACCT44_ADJUST_FRA"->"NFR_D77A" [color="red", penwidth=2.5];
+"NFR_D078"->"NFR_D77R" [color="red", penwidth=2.5];
+"NFR_DF01"->"NFR_C168" [color="red", penwidth=2.5];
+"NFR_D167"->"NFR_C168" [color="red", penwidth=2.5];
+"NFR_C003"->"NFR_D167" [color="red", penwidth=2.5];
+"NFR_D168"->"NFR_D167" [color="red", penwidth=2.5];
+"NFR_D011"->"NFR_C003" [color="red", penwidth=2.5];
+"Mytime-MyTime Bulk Retro"->"NFR_BKRT_01                   PCFILES" [color="red", penwidth=2.5]
+"Mytime-MyTime Accrual"->"NFR_MTACCR_01                 PCFILES" [color="red", penwidth=2.5]
+"PassPort-Passport Transactions"->"NFR_PASSPORT_01               PCFILES" [color="red", penwidth=2.5]
+"Concur-Business Expense Transactions"->"NFR_CONCUR_FILE               PCFILES" [color="red", penwidth=2.5]
+"OnCore-OnCore Transactions"->"NFR_ONCORE_01                 PCFILES" [color="red", penwidth=2.5]
+"Ariba-Ariba P2P Charge Payment file"->"NFR_P2PJRNL_FILE              PCFILES" [color="red", penwidth=2.5]
+"IRS Invest Rec-IRS - Optional"->"NFR_IRS_01                    PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Previous Period Transaction"->"NFR_GS_PP_FILE                PCFILES" [color="red", penwidth=2.5]
+"SAP-SAP Transaction"->"NFR_GS_FILE                   PCFILES" [color="red", penwidth=2.5]
+"SAP-Opening Balance"->"NFR_NUACCT44_ADJUST_FRA       PCFILES" [color="red", penwidth=2.5]
+// Cheque Requisition
+// Project master data
+"BPC-In-Service Forecast (MAIS) upload from BPC"->"NFR_BUD_AMT_02                PCFILES" [color="red", penwidth=2.5]
+// missing ones
+"NFR_BUD_AMT_02                PCFILES" -> "NFR_D168" [color="blue", penwidth=2.5, color="red", penwidth=2.5] 
+//concur SAP Files
+
+}
